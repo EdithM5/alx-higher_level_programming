@@ -9,6 +9,6 @@ saythis = "and is less than 6 and not 0"
 if lastdigit > 5:
     print("Last digit of", number, "is", lastdigit, "and is greater than 5")
 elif lastdigit == 0:
-    print("Last digit of", number, "is", lastdigit, "and is zero")
+    print("Last digit of", number, "is", lastdigit, "and is 0")
 elif lastdigit < 6 and not 0:
     print("Last digit of", number, "is", lastdigit, saythis)
