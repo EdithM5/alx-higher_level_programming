@@ -121,4 +121,3 @@ if __name__ == "__main__":
     solutions = recursive_solve(board, 0, 0, [])
     for sols in solutions:
         print(sols)
-
