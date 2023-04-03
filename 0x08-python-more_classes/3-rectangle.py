@@ -53,6 +53,7 @@ class Rectangle:
             return (0)
         else:
             return ((self._width * 2) + (self._height * 2))
+
     def __str__(self) -> str:
         """draws a diagram"""
         if self._width == 0 or self._height == 0:
