@@ -1,0 +1,33 @@
+class MyList(list):
+    """A list that can be sorted and printed in ascending order.
+
+    This class inherits from the built-in Python list class and provides an additional public method
+    for printing the list in ascending order.
+
+    Attributes:
+        None
+
+    Methods:
+        print_sorted(): Prints the list in ascending order.
+
+    Usage:
+        my_list = MyList([3, 2, 1])
+        my_list.print_sorted()
+        # Output: [1, 2, 3]
+    """
+
+    def print_sorted(self):
+        """Prints the list in ascending order.
+
+        Args:
+            None
+
+        Returns:
+            None
+
+        Raises:
+            None
+        """
+        sorted_list = sorted(self)
+        print(sorted_list)
+
