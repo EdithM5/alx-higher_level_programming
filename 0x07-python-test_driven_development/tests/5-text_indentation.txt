@@ -1,0 +1,16 @@
+=====================
+how the text_indentation fuction is used
+=========================================
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text = "Hello. How are you? I'm doing well. Thanks for asking."
+>>> text_indentation(text)
+Hello.
+<BLANKLINE>
+How are you?
+<BLANKLINE>
+I'm doing well.
+<BLANKLINE>
+Thanks for asking.
+<BLANKLINE>
+<BLANKLINE>
