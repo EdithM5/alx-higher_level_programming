@@ -1,4 +1,4 @@
-
+==========================
 Using 0-add_integer.py
 ===========================
 
@@ -29,7 +29,7 @@ The function also works with floating-point values.
 
 Note that floats are casted to integers before addition.
 
-
+ample text file showing python doctest test file
 
     >>> add_integer(2.9, 0.2)
     2
