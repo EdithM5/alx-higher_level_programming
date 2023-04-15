@@ -1,0 +1,33 @@
+Usage
+=====
+The function matrix_divided(matrix, div) returns a new matrix that is a copy of the parameter matrix with all elements divided by div.
+
+Example Usage
+=============
+1. To divide all elements of a 2x3 matrix [ [3, 6, 9], [12, 15, 18] ] by 3, we can call the function as follows:
+   
+   >>> matrix_divided = __import__('2-matrix_divided').matrix_divided
+   >>> matrix = [ [3, 6, 9], [12, 15, 18] ]
+   >>> print(matrix_divided(matrix, 3))
+   [[1.0, 2.0, 3.0], [4.0, 5.0, 6.0]]
+
+   Note that the quotients are rounded to a maximum of two decimal places.
+
+2. We can also divide all elements of a matrix consisting of integers and floating-point numbers by a specified value. For instance:
+   
+   >>> matrix = [ [1, -2.2, 3, 4.4, 5], [-6.6, 7.00, 8, 9.999, 10] ]
+   >>> print(matrix_divided(matrix, 3))
+   [[0.33, -0.73, 1.0, 1.47, 1.67], [-2.2, 2.33, 2.67, 3.33, 3.33]]
+
+Invalid Matrices
+===============
+
+The parameter matrix must be a list of lists consisting of either integers or floats. If matrix is not a list, a TypeError is raised. An empty list will also raise a TypeError. However, an empty list of lists will succeed. An identical TypeError is raised if matrix is not specifically a list of lists.
+
+
+The same TypeError is raised if any elements in matrix are neither integers nor floats. Finally, all the rows in matrix must be the same size. If any rows are of different sizes, a new TypeError is raised.
+
+Invalid Divisors
+================
+The parameter div must be either an integer or a float. Otherwise, a TypeError is raised. div must also be non-zero. Otherwise, a ZeroDivisionError is raised.
+
