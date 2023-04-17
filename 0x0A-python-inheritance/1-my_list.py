@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 defining a class that will inherit from list
 """
 
