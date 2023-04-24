@@ -8,5 +8,5 @@ def load_from_json_file(filename):
     this function writes a string to a text file
     uses the json function to change obj to str
     """
-    with open(filename, 'w', encoding="utf-8") as f:
+    with open(filename, 'w') as f:
         return json.load(f)
