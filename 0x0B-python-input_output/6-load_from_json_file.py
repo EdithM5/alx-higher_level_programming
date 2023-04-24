@@ -9,5 +9,4 @@ def load_from_json_file(filename):
     uses the json function to change obj to str
     """
     with open(filename, 'w', encoding="utf-8") as f:
-        my_obj = json.load(f)
-        return (my_obj)
+        return json.load(f)
